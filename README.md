@@ -18,3 +18,9 @@ python3 main.py [DIRPath]
 ```powershell
 python main.py [DIRPath]
 ```
+
+This script generates results file called <i>results.txt</i> in format:
+```
+filename.com;SHA-1Key
+```
+to import to excel spreadsheet
