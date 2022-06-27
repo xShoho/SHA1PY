@@ -6,6 +6,11 @@ from utilities.Files import filesFromDir, filenamesFromDir
 def colored(r, g, b, text):
     return "\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(r, g, b, text)
 
+
+def recursive():
+    pass #TODO Recursive file checksum throught directries inside given path
+
+
 try:
     if len(sys.argv) != 2:
         raise Exception("You have to put only one argument which is path to directory")
