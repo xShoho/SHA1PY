@@ -6,11 +6,11 @@ To use this script you run main.py giving oprion and argument which is path to d
 ### Linux
 Depending of Distribution you use either python or python3 command
 
-```bash
+```console
 python main.py [OPTION] [DIRPath]
 ```
 or
-```bash
+```console
 python3 main.py [OPTION] [DIRPath]
 ```
 
