@@ -18,3 +18,14 @@ def filenamesFromDir(path):
         break
     
     return files
+
+
+def dirsFromDir(path):
+    dirs = []
+    
+    for (dirpath, dirnames, filenames) in os.walk(path):
+        for dir in dirnames:
+            dirs.append(os.path.join(os.sep, path, dir))
+        break
+    
+    return dirs
